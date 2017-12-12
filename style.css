@@ -1,0 +1,203 @@
+body {
+	background: white;
+	color: #F5A623;
+	text-align: center;
+
+font-family: Avenir;
+
+
+}
+
+.container {
+	max-width: 1024px;
+	margin: auto;
+}
+
+#header {
+	background: black;
+	padding: 20px;
+	position: relative;
+	height: 20px;
+}
+
+#header .logo {
+	position: absolute;
+	left: 20px;
+	font-family: didot;
+}
+
+.header {
+	padding: 20px 0;
+}
+
+.header a {
+	color: #FFF;
+	margin: 0 10px;
+}
+
+#intro {
+	background: black;
+	background-image: url(assets/arms.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/*height: 346px;*/
+
+
+}
+
+#intro .wrapper {
+	padding: 60px;
+	max-width: 800px;
+	margin: auto;
+}
+
+#intro .intro-copy {
+	color: #F5A623;
+	text-align: center;
+	font-family: Avenir;
+}
+
+#intro .button {
+	padding: 10px 30px;
+	display: block;
+	border: 1px solid #FFF;
+	max-width: 300px;
+	margin: auto;
+	margin-top: 30px;
+	color: #FFF;
+}
+
+.align {
+  align: left;
+}
+.btn.image {
+	margin: 10px 0;
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 150px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.btn.regular {
+	background-color: transparent;
+	display: block;
+	max-width: 325px;
+	margin: auto;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #F5A623;
+	box-shadow: 3px 3px 10px 1px #000;
+}
+#benefits {
+	background: white;
+	padding: 30px 0;
+}
+#Benefit .benefit-copy {
+	max-width: 152px;
+	padding-left: 20px;
+}
+#testimonials {
+	background: black;
+	padding: 100px 0;
+	background-image: url(assets/pregnant.png);
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+#testimonials .arrow_left {
+	position: absolute;
+	left: 20px;
+	top: 40%;
+}
+
+#testimonials .arrow_right {
+	position: absolute;
+	right: 20px;
+	top: 40%;
+}
+
+#testimonials .wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 28%;
+}
+
+.wrapper {
+
+  margin: auto;
+	max-width: 500;
+}
+
+#newsletter {
+	background: white;
+  padding: 50px 0;
+  text-align: center;
+  font-family: Avenir;
+  /*max-width: 1024px;*/
+  /*height: 300px;*/
+}
+
+#newsletter h2 {
+	font-size: 40px;
+}
+
+
+#newsletter .btn {
+	background: #000;
+	border: none;
+	font-size: 25px;
+	max-width: 220px;
+	border-radius: 50px;
+	box-shadow: none;
+}
+
+#newsletter input {
+  width: 100%;
+	max-width: 400px;
+	border: 2px solid #000;
+	height: 45px;
+	padding: 0 15px;
+	font-size: 18px;
+}
+
+#newsletter .btn {
+  margin: 20px auto;
+  font-family: Avenir;
+}
+
+#footer {
+	background: black;
+	padding: 15px 0;
+}
+
+#footer .legal a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 3px 0;
+	display: block;
+}
+
+#legal {
+	background: black;
+	color: white;
+}
+
+@media only screen and (max-width: 500px){
+	#intro {
+		background-size: contain;
+		background-position: center;
+	}
+}
